@@ -1,0 +1,869 @@
+html *
+{
+   font-size: 1em;
+   color: #595959;
+   font-family: Roboto, Arial, sans-serif  !important;
+}
+.wrapper {
+    width: 80%;
+}
+.header-website-name {
+    display: inline-block;
+    text-decoration: none;
+}
+.navbar {
+    text-decoration: none;
+    background-color: white;
+    z-index: 1 !important;
+}
+.nav-link {
+    color: #595959;
+}
+.nav-active {
+    color: #FFC300 !important;
+}
+.nav-item {
+    padding-right: 20px;
+}
+.language-icons {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    width: inherit;
+}
+
+/* Carousel */
+.carousel {
+    display: none;
+    z-index: -1;
+}
+.carousel_img {
+    vertical-align: middle;
+    width: 103%;
+    height: 400px;
+}
+/* The dots/bullets/indicators */
+.dots {
+    margin-top: -50px;
+    text-align:center;
+    margin-left: 0%;
+}
+.dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.slideshow-container .active {
+    background-color: #FFC300;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+#navigation {
+    height: 100px;
+    margin-top: 50px;
+}
+#container {
+    margin: 50 auto;
+    width: 80%;
+}
+.line {
+    display: block;
+    border-color: #FFC300;
+    border-width: 1px;
+    width: 70px;
+    margin: 0 50px;
+}
+.line_div {
+    display: inline-block;
+    vertical-align: middle;
+}
+.que_hacemos {
+    padding-top: 10%;
+    text-align: center;
+ }
+.volunteer-left {
+    padding-left: 40px;
+}
+.volunteer-right {
+    padding-right: 60px;
+}
+.volunteers {
+    background-color: #FFC300;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* Quienes Somos */
+.quienes_somos {
+    position: relative;
+}
+@media screen and (min-width: 400px) {
+    .aboutbanner{height:20%;}
+ }
+.aboutbanner {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    background: linear-gradient(to right, white, transparent ),
+        url("../images/bannerabout.jpg");
+    background-position: center; 
+}
+.absolute-text {
+    position:absolute;
+    bottom:0; 
+    padding:120px 20px; 
+    width:100%; 
+    text-align:center;
+    vertical-align: middle;
+    margin-top: -15px;
+}
+.absolute-text-by {
+    position: absolute;
+    bottom: 0;
+    padding: 0px 0px 90px 0px;
+    margin-left: 70%;
+}
+.absolute-text strong {
+    font-size:24px; 
+}
+@media screen and (min-width: 400px) {
+    .volunteer-media {
+        text-align: center;
+    }
+    .volunteer-left {
+        padding-left: 0px;
+    }
+    .volunteer-right {
+        padding-right: 0px;
+    }
+ }
+/* Logo slides */
+.mySlides {display: none}
+.mySlides img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container-logo {
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+
+.prev-next-buttons {
+   text-align: center;
+   margin-bottom: 100px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  padding: 16px 30px 16px 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: #ccc;
+}
+
+/* Position the "next button" to the right */
+.next {
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+   margin-left: -100px;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  animation-name: fade;
+}
+.fade:not(.show) {
+    opacity: 1 !important;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/* Font Awesome */
+.fa { 
+    font-family: 'FontAwesome' !important; 
+} 
+
+/* Newsletter */
+.newsletter-title {
+    display: inline-block;
+    vertical-align:middle;
+}
+
+.newsletter_button {
+    border-radius: 0px 100px 100px 0px;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height:30px;
+    margin-left: -4px;
+    border: 0px;
+    font-size: 20px;
+}
+.newsletter_input {
+    border-radius: 100px 0px 0px 100px;
+    width: 155px;
+    height:30px;
+    border: 0px;
+    font-size: 20px;
+}
+.social-networks a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+.fa-twitter {
+    color: #FFC300;
+}
+.fa-facebook {
+    color: #FFC300;
+}
+.fa-instagram {
+    color: #FFC300;
+}
+.fa-arrow-up {
+    color: white;
+    padding-top: 10px;
+ }
+.top-arrow {
+    width: 40px;
+    height: 40px;
+    vertical-align: center;
+    text-align: center;
+    background-color: #FFC300;
+}
+em {
+    color: #FFC300;
+}
+em a {
+    color: #FFC300 !important;
+    text-decoration: none;
+}
+
+/* Quienes somos */
+.quienes_somos {
+    position: relative;
+    z-index: -1;
+ }
+ .aboutbanner {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    background: linear-gradient(to right, white, transparent ),
+       url("../images/bannerabout.jpg");
+    background-position: center; 
+ }
+ .absolute-text {
+    position:absolute;
+    bottom:0; 
+    padding:120px 20px; 
+    width:100%; 
+    text-align:center;
+    vertical-align: middle;
+    margin-top: -15px;
+ }
+ /* Register */
+.register-banner {
+    position: relative;
+    z-index: -1;
+ }
+ .bannerregister {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    background: linear-gradient(to right, white, transparent ),
+       url("../images/bannerregistro.jpg");
+    background-position: center; 
+ }
+.card {
+    background-color: #E8E8EE !important;
+    border: none !important;
+}
+.guardar-button {
+    background-color: #FFC300 !important;
+    color: white;
+    width: 200px  !important;
+    height: 50px !important;
+    border-radius: 100px  !important;
+    border: 0px !important;
+    vertical-align: middle;
+    margin: 0 15px 0 15px;
+}
+.close-button {
+    background-color: #E8E8EE !important;
+    color: black !important;
+    border-radius: 100px  !important;
+}
+@media screen and (max-width: 600px) {
+    .guardar-button{
+        margin: 20px 0 0 0;
+    }
+}
+.registration-input {
+    width: 170% !important;
+}
+.modal-body {
+    margin-left: 20px;
+}
+.registrate {
+    background-color: #FFC300 !important;
+    color: white;
+    width: 100px !important;
+    height: 40px !important;
+    border-radius: 100px !important;
+    border: 0px !important;
+}
+
+/* Contact Us */
+.contact_banner {
+    position: relative;
+    z-index: -1;
+ }
+ .bannercontacto {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    background: linear-gradient(to right, white, transparent ),
+       url("../images/bannercontacto.jpg");
+    background-position: center; 
+ }
+.card-body input, textarea {
+    border: none !important;
+}
+@media screen and (min-width: 600px) {
+    .input-block-level {
+        width: 250px !important;
+    }
+    .contact-inputs {
+        width: 600px !important;
+    }
+    .card-body textarea {
+        height: 200px !important;
+    }
+    .agregar {
+      background-color: darkgreen !important;
+       color: white;
+       width: 200px !important;
+       height: 40px !important;
+       border-radius: 100px !important;
+       border: 0px !important;
+       float: right;
+       margin-bottom: 30px;
+    }
+}
+.enviar {
+    background-color: #FFC300 !important;
+    color: white;
+    width: 200px !important;
+    height: 40px !important;
+    border-radius: 100px !important;
+    border: 0px !important;
+}
+
+/* Iniciar Sesion */
+.login-banner {
+    position: relative;
+    z-index: -1;
+ }
+ .bannerlogin {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    background: linear-gradient(to right, white, transparent ),
+       url("../images/bannerlogin.jpg");
+    background-position: center; 
+ }
+ .card-body a {
+     color: #FFC300 !important;
+ }
+/* Comprar Boletos */
+.comprar_boletos {
+    position: relative;
+    z-index: -1;
+ }
+ .buybanner {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    background: linear-gradient(to right, white, transparent ),
+       url("../images/bannercboleto.jpg");
+    background-position: center; 
+ }
+ .nuestros_list {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+ }
+ .nuestros_list a {
+    text-decoration: none;
+ }
+ .nuestros_event_data {
+    display: inline-block;
+    margin-left: 1%;
+    text-align: center;
+ }
+ .nuestro_image2 {
+    background-size: 200px 250px;
+    width: 200px;
+    height: 250px;
+ }
+ .price {
+    color: #FFC300;
+    font-size: 11px;
+ }
+ .event_title {
+    font-size: 11px;
+ }
+ .top-left-text {
+    position: relative;
+    top: 8px;
+    left: 10px;
+    width: 35px;
+    color: white;
+    background-color: #FFC300;
+  }
+  .top-left-text-perdamos {
+    position: relative;
+    top: 8px;
+    left: 10px;
+    width: 30px;
+    color: white;
+    background-color: red;
+  }
+  .perdamos_column1 {
+    display: inline-block;
+    width: 36%;
+    white-space: normal;
+    vertical-align: top;
+ }
+
+ @media screen and (min-width: 600px){
+/* Perdamos */
+.perdamos {
+    margin-bottom: 10%;
+    margin-left: 20%;
+    white-space: nowrap;
+    margin-right: -4px;
+  }
+  .perdamos_column1 {
+    display: inline-block;
+    width: 36%;
+    white-space: normal;
+    vertical-align: top;
+ }
+ .perdamos_column2 {
+    display: inline-block;
+    width: 49%;
+    white-space: normal;
+    vertical-align: top;
+ }
+ .perdamos-list-column1 {
+    display: inline-block;
+    width: 32%;
+ }
+ .perdamos-list-column2 {
+    float: right;
+    width: 37%;
+ }
+  .nuestro_image_perdamos {
+    width: 310px;
+    height: 400px;
+ }
+ .top-left-text-perdamos {
+    position: relative;
+    top: 8px;
+    left: 10px;
+    width: 30px;
+    color: white;
+    background-color: red;
+  }
+  /* Rating */
+  .checked {
+    color: orange;
+  }
+  .fa { 
+    font-family: 'FontAwesome' !important; 
+  } 
+  /* Counter */
+  input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+  }
+  
+  .number-input {
+    display: inline-flex;
+  }
+  .number-input button {
+    outline:none;
+    -webkit-appearance: none;
+    background-color: lightgrey;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    width: 33px;
+    height: 40px;
+    margin: 0;
+    position: relative;
+  }
+  
+  .number-input button:before,
+  .number-input button:after {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 2px;
+    font-size: 10px !important;
+    background-color: black;
+    transform: translate(-50%, -50%);
+  }
+  .number-input button.plus:after {
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+  
+  .number-input input[type=number] {
+    max-width: 6rem;
+    padding: .5rem;
+    font-size: 20px;
+    height: 40px;
+    text-align: center;
+    border: 0;
+  }
+  /* Comprar button */
+  .comprar-button {
+    background-color: #FFC300;
+    color: white;
+    width: 160px;
+    height: 50px;
+    border: none;
+  }
+  .comprar-button i {
+    color: white;
+  }
+  .fas {
+    font-family: 'FontAwesome' !important;
+  }
+  /* Tabbed content */
+  /* Style the tab */
+ .tab {
+    overflow: hidden;
+    margin-left: 18%;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    margin-left: 10px;
+    background-color: #ccc;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #FFC300;
+  }
+  /* Create an active/current tablink class */
+  .tab button.active, 
+  .tab button:active {
+    background-color: #FFC300;
+    color: white;
+    outline: 0px;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    margin-top: 10px;
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid lightgrey;
+    width: 68%;
+    margin-left: 18.8%;
+  }
+ 
+  .tab-data {
+    margin-bottom: 10%;
+  }
+  /* Nav bar and logos */
+.hero {
+    position: relative;
+    background-color: #FFC300;
+    height: 49px !important;
+    width: 170px !important;
+ }
+ 
+ .nav-active-triangle:after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: solid 20px #FFC300;
+    border-left: solid 20px transparent;
+    border-right: solid 20px transparent;
+    margin-top: -1px;
+ }
+ }
+@media screen and (max-width: 600px){
+    /* Perdamos */
+ .perdamos_column1 {
+    white-space: normal;
+ }
+ .perdamos_column2 {
+    display: inline-block;
+    white-space: normal;
+    vertical-align: top;
+ }
+ .perdamos-list-column1 {
+    display: inline-block;
+    width: 32%;
+ }
+ .perdamos-list-column2 {
+    float: right;
+    width: 42%;
+ }
+  .nuestro_image_perdamos {
+    background: url("../images/minibaner4.jpg");
+    background-size: 310px 400px;
+    width: 310px;
+    height: 400px;
+ }
+ .top-left-text-perdamos {
+    position: relative;
+    top: 8px;
+    left: 10px;
+    width: 42px;
+    color: white;
+    background-color: red;
+  }
+  /* Rating */
+  .checked {
+    color: orange;
+  }
+  .fa { 
+    font-family: 'FontAwesome' !important; 
+  } 
+  /* Counter */
+  input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+  }
+  
+  .number-input {
+    display: inline-flex;
+  }
+  .number-input button {
+    outline:none;
+    -webkit-appearance: none;
+    background-color: lightgrey;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    width: 33px;
+    height: 40px;
+    margin: 0;
+    position: relative;
+  }
+  
+  .number-input button:before,
+  .number-input button:after {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 2px;
+    font-size: 10px !important;
+    background-color: black;
+    transform: translate(-50%, -50%);
+  }
+  .number-input button.plus:after {
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+  
+  .number-input input[type=number] {
+    max-width: 6rem;
+    padding: .5rem;
+    font-size: 20px;
+    height: 40px;
+    text-align: center;
+    border: 0;
+  }
+  /* Comprar button */
+  .comprar-button {
+    background-color: #FFC300;
+    color: white;
+    width: 160px;
+    height: 50px;
+    border: none;
+  }
+  .comprar-button i {
+    color: white;
+  }
+  .fas {
+    font-family: 'FontAwesome' !important;
+  }
+  /* Tabbed content */
+  /* Style the tab */
+ .tab {
+    overflow: hidden;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 100px;
+    transition: 0.3s;
+    font-size: 17px;
+    background-color: #ccc;
+    color: black;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #FFC300;
+  }
+  .tab button {
+      outline: 0px;
+  }
+  /* Create an active/current tablink class */
+  .tab button.active, 
+  .tab button:active {
+    background-color: #FFC300;
+    color: white;
+    outline: 0px;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    margin-top: 10px;
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid lightgrey;
+  }
+ 
+  .tab-data {
+    margin-bottom: 10%;
+    margin-top: 10px;
+  }
+}
+.table-header {
+    text-align: center;
+    vertical-align: middle !important;
+}
+.comision-input {
+    height: 35px !important;
+     width: 70px !important;
+     text-align: center !important;
+ }
+.modificar {
+  background-color: #FFC300;
+   color: white !important;
+   width: 60px !important;
+   height: 40px;
+   border-radius: 100px;
+   border: 0px;
+}
+.modificar i {
+  color: white !important;
+}
+.elimnar {
+  background-color: maroon;
+   color: white !important;
+   width: 60px !important;
+   height: 40px;
+   border-radius: 100px;
+   border: 0px;
+}
+.elimnar i {
+  color: white !important;
+}
+.enviar label {
+  color: white;
+  vertical-align: middle;
+}
+.guardar-button-event {
+  background-color: #FFC300;
+  color: white;
+  width: 200px;
+  height: 40px;
+  border-radius: 100px;
+  border: 0px;
+  text-align: center;
+  margin-left: 0px;
+}
+.note-div {
+  float: left;
+  margin-left: 20px;
+}
+.note {
+  width: 35px;
+  border-radius: 5px;
+  background-color: #FFC300;
+  color: white;
+}
+.mensaje-contact{
+    height: 300px !important;
+}
